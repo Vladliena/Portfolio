@@ -1,8 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;500;700&family=Spline+Sans+Mono:wght@500&family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -58,6 +63,11 @@ header .hover-underline-animation:after {
 header .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+@media screen and (max-width: 989px) {
+  header .logo {
+    margin-bottom: 15px;
+  }
 }
 
 .main_section {
@@ -179,6 +189,9 @@ header .hover-underline-animation:hover:after {
   gap: 10;
   border-radius: 200px;
 }
+.main_section .main_section-img3 img {
+  width: 150px;
+}
 
 .about_section {
   padding: 100px 0;
@@ -226,4 +239,124 @@ header .hover-underline-animation:hover:after {
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
+}
+.about_section .skills .skills__skill:hover {
+  background: #3c6e71;
+  color: #FFF;
+}
+
+.projects_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #3c6e71;
+  padding: 130px 0 80px;
+  align-content: center;
+}
+.projects_section h2 {
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Staatliches", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  text-align: left;
+}
+.projects_section .projects-list .list-group-project .list-group-project-item {
+  display: flex;
+  text-align: left;
+  background-color: inherit;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  text-align: left;
+  padding-left: 0px;
+  align-items: center;
+}
+.projects_section .projects-list .list-group-project .list-group-project-item i::before {
+  color: #F7CB15;
+}
+.projects_section .projects-list .list-group-project .list-group-project-item h5 {
+  margin-bottom: 0rem;
+  min-width: 350px;
+  font-family: "Martian Mono", monospace;
+}
+.projects_section .projects-list .list-group-project .list-group-project-item .list-s {
+  margin-left: 40px;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 300;
+  font-style: normal;
+  padding: 10px 0;
+  font-family: "Staatliches", sans-serif;
+}
+@media screen and (max-width: 989px) {
+  .projects_section .list-group-project-item {
+    padding-top: 20px;
+  }
+  .projects_section .list-group-project-item h5 {
+    min-width: inherit !important;
+  }
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 130px 0 80px;
+  align-content: center;
+  background-color: #353535;
+  text-align: center;
+}
+.contact-section .container h2 {
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: visible;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Staatliches", sans-serif;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 0em;
+  line-height: 1.2;
+  margin-bottom: 22px;
+}
+.contact-section .container .contact-text {
+  max-width: 700px;
+  word-wrap: break-word;
+  word-break: break-word;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Martian Mono", monospace;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  margin: auto;
+}
+.contact-section .container .contacts-list .contacts-list-item {
+  background-color: inherit;
+  border: inherit;
+  border-bottom: 1px #fff solid;
+  color: #fff;
+  font-family: "Martian Mono", monospace;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact-section .container .contacts-list .contacts-list-item a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contact-section .container .contacts-list .contacts-list-item a i::before {
+  margin-bottom: 5px;
 }/*# sourceMappingURL=main.css.map */

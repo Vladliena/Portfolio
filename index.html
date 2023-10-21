@@ -18,9 +18,12 @@
                     <a class="logo" href="#"><img src="./elipses_logo.svg" alt="image" class="elipses_nav"> Vladlena
                         Sotnikova</a>
                     <ul class="nav_ul d-flex list-unstyled" role="search">
-                        <li class="hover-underline-animation"><a class="a_nav-hover" href="#">About</a></li>
-                        <li class="hover-underline-animation"><a class="a_nav-hover" href="#">Projects</a></li>
-                        <li class="hover-underline-animation"><a class="a_nav-hover" href="#">Contact</a></li>
+                        <li class="hover-underline-animation"><a class="a_nav-hover" href="#about_section">About</a>
+                        </li>
+                        <li class="hover-underline-animation"><a class="a_nav-hover"
+                                href="#projects_section">Projects</a></li>
+                        <li class="hover-underline-animation"><a class="a_nav-hover"
+                                href="#contact_section">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
@@ -30,22 +33,24 @@
         <div class="container ">
             <div class="row gap-2">
                 <div class="col-lg-6 main_section-about">
-                    <h1>HI! My name is Vladlena and I'm a fullstack developer experienced in <br />JS | React | Python | Django REST</h1>
-                    <p>Meet the coding prodigy who single-handedly crafts stunningly efficient full-stack solutions.
-                        Dive
-                        into the mesmerizing
-                        world of a Full Stack Developer who turns coffee into code like a magician.</p>
+                    <h1>Hi! My name is Vladlena and I'm a Fullstack Developer experienced in <br />JS | React | Node.js
+                        |
+                        Python | Django </h1>
+                    <p>I also have a solid grasp of UI/UX principles, and I know how to assist large teams in
+                        streamlining their work processes
+                        to create projects with a smoother step-by-step workflow and one-of-a-kind, user-friendly
+                        interfaces.</p>
                 </div>
                 <div class="col-lg-5 main_section-img"></div>
                 <div class="col-lg-4 main_section-img2"></div>
-                <div class="col-lg-8 main_section-img3" style="width: 870px;"></div>
+                <div class="col-lg-8 main_section-img3" style="width: 870px;"><img src="./Union.svg"></div>
             </div>
 
             <div class="decoration-left"></div>
             <div class="decoration-right"></div>
     </section>
-    <section class="about_section">
-        <div class="container d-flex justify-content-between">
+    <section class="about_section" id="about_section">
+        <div class="container d-flex justify-content-between flex-wrap">
             <div class="about_text">
                 <h2>About me</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere architecto eaque explicabo modi
@@ -64,31 +69,92 @@
             <div class="about__content-skills">
                 <h3 class="about__content-title">My Skills</h3>
                 <div class="skills">
-                    <div class="skills__skill">HTML</div>
-                    <div class="skills__skill">CSS</div>
                     <div class="skills__skill">JavaScript</div>
                     <div class="skills__skill">React</div>
-                    <div class="skills__skill">SASS</div>
-                    <div class="skills__skill">GIT</div>
-                    <div class="skills__skill">Github</div>
-                    <div class="skills__skill">Responsive Design</div>
                     <div class="skills__skill">Python</div>
                     <div class="skills__skill">Django Rest</div>
-                    <div class="skills__skill">React</div>
+                    <div class="skills__skill">SQL</div>
+                    <div class="skills__skill">Node.js</div>
+                    <div class="skills__skill">OOP</div>
+                    <div class="skills__skill">Git/Github</div>
+                    <div class="skills__skill">Html</div>
+                    <div class="skills__skill">Css</div>
                 </div>
             </div>
         </div>
         </div>
         </div>
     </section>
-    <section>
-        <div class="container">
+
+
+
+
+    <section class="projects_section" id="projects_section">
+        <div class="container d-flex flex-column flex-wrap">
+            <h2 class="mb-3">Projects</h2>
+
+            <div class="projects-list flex-wrap">
+                <ul class="list-group-project list-group list-group-flush flex-wrap">
+                    <li class="list-group-project-item list-group-item flex-wrap">
+                        <a href="https://github.com/Vladliena/GreenHabit" class="d-flex text-decoration-none"
+                            style="color: #ffffff;"">
+                        <i class=" fa-regular fa-face-smile fa-2xl m-2" style="color: #ffffff;"></i>
+                            <h5 class="list-p"> Green Habit App</h5>
+                        </a>
+                        <span class="list-s m-2">GreenHabit App allow users track and manage their waste
+                            production.</span>
+
+                    </li>
+                    <li class="list-group-project-item list-group-item flex-wrap">
+                        <a href="https://github.com/Vladliena/Panic-Lab-Game" class="d-flex text-decoration-none"
+                            style="color: #ffffff;"">
+                        <i class=" fa-regular fa-face-smile fa-2xl m-2" style="color: #ffffff;"></i>
+                            <h5 class="list-p">Panic Lab Game</h5>
+                        </a>
+                        <span class="list-s m-2">Memory booster game</span>
+
+                    </li>
+                    <li class="list-group-project-item list-group-item flex-wrap">
+                        <a href="https://github.com/Vladliena/Fortune-Telling-Game" class="d-flex text-decoration-none"
+                            style="color: #ffffff;"">
+                        <i class=" fa-regular fa-face-smile fa-2xl m-2" style="color: #ffffff;"></i>
+                            <h5 class="list-p">Fortune Telling App</h5>
+                        </a>
+                        <span class="list-s m-2">An application that shows predictions by question and by book</span>
+
+                    </li>
+                </ul>
+            </div>
 
         </div>
     </section>
 
 
+    <section class="contact-section" id="contact_section">
+        <div class="container d-flex flex-column align-items-center flex-wrap">
+            <h2>Contacts</h2>
+            <iframe src="https://lottie.host/?file=c6bf31bc-129b-41e0-989b-cd3e4bd6b6d0/0gJBIO5r7v.json"></iframe>
+            <ul class="contacts-list list-group">
+                <li class="contacts-list-item list-group-item">E-mail: sotnikovavladlena@gmail.com</li>
+                <li class="contacts-list-item list-group-item">WhatsApp: (+972)55 560 4513</li>
+                <div class="d-flex">
+                    <li class="contacts-list-item list-group-item"><a
+                            href="https://www.linkedin.com/in/vladlena-sotnikova-0904ba195/"><i
+                                class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i> Instagram</a></li>
+                    <li class="contacts-list-item list-group-item"><a
+                            href="https://www.linkedin.com/in/vladlena-sotnikova-0904ba195/"><i
+                                class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i> LinkedIn</a></li>
+                    <li class="contacts-list-item list-group-item"><a
+                            href="https://www.linkedin.com/in/vladlena-sotnikova-0904ba195/"><i
+                                class="fa-brands fa-github-alt fa-2xl" style="color: #ffffff;"></i> Github</a></li>
+                </div>
+            </ul>
+        </div>
 
+    </section>
+
+
+    <script src="https://kit.fontawesome.com/78fc89e2f3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
